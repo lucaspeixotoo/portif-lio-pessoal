@@ -16,31 +16,41 @@ body{
 
 header{
   display: flex;
-  justify-content: space-between;
   background-color: rgb(137, 137, 165);
   font-size: 16px;
+  justify-content: space-between;
 }
 
 .nome{
   font-size: 20px;
   padding: 10px;
-  margin: 5px;
+  margin-left: 50px;
 }
 
 .menu{
   padding: 10px;
   margin: 5px;
+  margin-right: 50px;
   margin-left: 50px;
 }
 
-.sobre {
+.menu a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  border: solid 2px;
+  padding: 5px;
+  border-radius: 16px 16px;
+}
+
+.introdução {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   
 }
 
-.sobre .inicio {
+.introdução #inicio {
   display: flex;
   font-size: 50px;
   font-weight: bold;
@@ -49,8 +59,52 @@ header{
 }
 
 .botao {
-  font-size: 15px;
-  width: 100px;
+  display: flex;
+  font-size: 14px;
   height: 50px;
   margin-left: 50px;
+  margin-top: 2%;
+  gap: 30px;
+}
+
+#entrar-contato {
+  width: 8%;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px 10px;
+  color: black;
+  background-color: #E7E7F3;
+}
+
+#ver-projetos {
+  width: 8%;
+  align-content: center;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px 10px;
+  color: white;
+  background-color: #0099DD;
+}
+
+#foto-pessoal {
+  display: flex;
+  justify-items: end;
+}
+
+#estudante {
+  display: flex;
+  margin-left: 50px;
+}
+
+.sobre {
+  margin-left: 50px;
+}
+
+.sobre #eu {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#linguagens {
+  
 }
