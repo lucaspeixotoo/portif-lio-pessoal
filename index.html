@@ -1,48 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio Pessoal</title>
-  <link rel="icon" type="image/jpg" href="imagens/icon.jpg">
+ <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Portifólio Pessoal</h1>
-  <h2>Lucas Fernando Marins Peixoto</h2>
-  <dl>
-    <dt>Idade:</dt>
-    <dd>19 anos</dd>
-    <dt>Email:</dt>
-    <dd>lucas.peixoto@catolicasc.edu.br</dd>
-    <dt>Telefone:</dt>
-    <dd>(47) 9 9999-9999</dd>
-  </dl>
-  <hr>
-  <dl>
-    <dt><strong>> Formações Academicas:</strong></dt>
-    <dt><strong>> Ensino Médio:</strong></dt>
-    <dd>Técnico em Agropecuária integrado ao Ensino Médio</dd>
-    <dt><strong>Ensino Superior:</strong></dt>
-    <dd>Cursando Engenharia de Software</dd>
-    <dd>Cursando Agronomia</dd>
-    <dt><strong>> Cursos:</strong></dt>
-    <dd>Curso de inglês na KNN Idiomas</dd>
-  </dl>
-  <hr>
-  <dl>
-    <dt><strong>> Redes sociais:</strong></dt>
-    <dd><a href="https://github.com/lucaspeixotoo" target="_blank">Github </a></dd>
-    <dd><a href="https://www.instagram.com/_.peixotoo/?next=%2F" target="_blank">Instagram</a></dd>
-  </dl>
-  <p>
-  <h3>Sobre mim</h3>
-  Uma pessoa que gosta de aprender coisas novas, sempre buscando conhecimento e aprimoramento pessoal. Tenho interesse
-  em tecnologia,
-  programação e desenvolvimento de software. Estou sempre aberto a novos desafios e oportunidades de crescimento, tanto
-  profissional quanto pessoal.
-  </p>
-</body>
 
+  <header>
+    <div class="nome">
+      <p>Lucas Peixoto</p>
+    </div> 
+    <div class="menu">
+      <a href="https://github.com/lucaspeixotoo" target="_blank">Projetos</a>
+      <a href="#">Sobre</a>
+      <a href="mailto:lucas.peixoto@catolicasc.edu.br?subject=Dúvida%20Rápida&bory=Olá%20gostaria%20de%20conversar%20com%20você%20sobre..." target="_blank">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="sobre" id="introdução">
+      <p class="inicio">Olá, eu sou<br>Lucas Peixoto</p>
+      <p>Estudante de Engenharia de Software</p>
+      <button class="botao"><a href="https://github.com/lucaspeixotoo">Ver Projetos</a></button>
+      <button class="botao"><a href="mailto:lucas.peixoto@catolicasc.edu.br?subject=Dúvida%20Rápida&bory=Olá%20gostaria%20de%20conversar%20com%20você%20sobre...">Entrar em Contato</a></button>
+      <img src="#" alt="Foto Pessoal">  
+    </section>
+
+    <section class="sobre" id="eu">
+      <div>
+        <p>Sobre Mim</p>
+        <p>Sou um desenvolvedor curioso,<br>criativo e autodidata, sempre em<br>busca de aprender e ampliar<br>minhas habilidades.</p>
+      </div>
+      <div id="linguagens">
+        <p>HTML</p>
+        <div class="container">
+          <div class="skills html">50%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+          <div class="skills css">50%</div>
+        </div>
+        <p>C ANSI</p>
+        <div class="container">
+          <div class="skills c_ansi">30%</div>
+        </div>  
+      </div>
+    </section>
+
+    <section id="trabalhos">
+      <p>Alguns Projetos...</p>
+      <div class="projetos" id="projeto01">
+        <img src="#" alt="Imagem genérica">
+        <h3>Portifólio Pessoal</h3>
+        <p>Um site pessoal para mostrar meus projetos e habilidades</p>
+        <button><a href="#">Ver Projeto no GitHub</a></button>
+      </div>
+
+      <div class="projetos" id="projeto02">
+        <img src="#" alt="Imagem genérica">
+        <h3>Atividades em C</h3>
+        <p>Algumas atividades na linguagem C ANSI na disciplina de fundamentos de programação</p>
+        <button><a href="#">Ver Projeto no GitHub</a></button>
+      </div>
+
+      <div class="projetos" id="projeto03">
+        <img src="#" alt="Imagem genérica">
+        <h3>Atividades if-else</h3>
+        <p>Algumas atividades de estrutura condicional da disciplica de fundamentos de programação</p>
+        <button><a href="#">Ver Projeto no GitHub</a></button>
+      </div>
+     </section> 
+    </main>
+    <footer>
+      <p>© 2025 Lucas Peixoto</p>
+    </footer>
+</body>
 </html>
